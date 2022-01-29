@@ -41,7 +41,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-    color: #6CB670;
+    color: #feef3c;
 }
 
 h1, h2, h3,
@@ -141,7 +141,7 @@ body > section,
 ==========================================*/
 
 #navigation {
-  background-color: rgba(16, 22, 54, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   border: 0 none;
   margin: 0;
   
@@ -273,7 +273,10 @@ top: -8px;
 ==========================================*/
 
 .features {
-  background-color: #f4f7f9;
+  background-color: #feef3c;
+}
+.features h2{
+  color: #000;
 }
 
 .owl-controls {
@@ -648,7 +651,7 @@ label.error {
 .footer {
   background-color: #feef3c;
   border-top: 5px solid #062033;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .footer a:hover {
@@ -698,6 +701,7 @@ label.error {
 
 .footer-single li {
   line-height: 32px;
+  color: #000;
 }
 
 .footer-single p i {
@@ -713,8 +717,9 @@ label.error {
 }
 
 .copyright {
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-top: 100px;
+  border: #000;
 }
 
 #back-top {
