@@ -141,7 +141,7 @@ body > section,
 ==========================================*/
 
 #navigation {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #feef3c;
   border: 0 none;
   margin: 0;
   
@@ -161,7 +161,7 @@ body > section,
 }
 
 .navbar-nav li a {
-	border-top: 1px solid transparent;
+	border-top: 1px soli transparent;
 }
 
 .navbar-nav li a.current,
